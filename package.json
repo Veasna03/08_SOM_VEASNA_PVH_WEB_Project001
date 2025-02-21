@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.7",
+    "tailwindcss": "^4.0.7"
+  }, "scripts": {
+    "dev":"npx @tailwindcss/cli -i ./src/input.css -o ./public/main.css --watch"
+  }
+}

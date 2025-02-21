@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="bg-[#f2ede4]">
+        <!-- navbar --><section>
+            <div class="navbar fixed top-0 left-0 w-full z-50 flex justify-between h-[110px] bg-[#f2ede4]">
+                <!-- Logo Section -->
+                <div class="logo relative flex  w-[30%] h-full ">
+                    <div class="logo absolute ml-[45px] mt-[40px]">
+                        <svg viewBox="0 0 24 24" style="width:  31px; height: 31px; overflow: visible; opacity: 1; z-index: 1; fill: rgb(242, 108, 5);"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19.3 16.9c.4-.7.7-1.5.7-2.4 0-2.5-2-4.5-4.5-4.5S11 12 11 14.5s2 4.5 4.5 4.5c.9 0 1.7-.3 2.4-.7l3.2 3.2 1.4-1.4-3.2-3.2zm-3.8.1c-1.4 0-2.5-1.1-2.5-2.5s1.1-2.5 2.5-2.5 2.5 1.1 2.5 2.5-1.1 2.5-2.5 2.5zM12 20v2C6.48 22 2 17.52 2 12S6.48 2 12 2c4.84 0 8.87 3.44 9.8 8h-2.07A8 8 0 0 0 15 4.59V5c0 1.1-.9 2-2 2h-2v2c0 .55-.45 1-1 1H8v2h2v3H9l-4.79-4.79C4.08 10.79 4 11.38 4 12c0 4.41 3.59 8 8 8z"></path></svg>
+                    </div>
+                   <div class=" absolute ml-[75px] mt-[30px] text-[35px] font-bold  text-black"><h1>Travel</h1></div>
+                </div>
+        
+                <!-- Navigation Links & Search -->
+                <div class="links w-[67%] h-full flex items-center justify-baseline px-4">
+                    <!-- Menu Links -->
+                    <div class="menu w-[60%] flex space-x-4 text-white gap-13">
+                        <a href="home.html" class="hover:text-amber-400 text-[25px] font-bold text-[#f26c05]">Home</a>
+                        <a href="ourOffers.html" class="hover:text-amber-400 text-[25px] font-bold text-black">Our offer</a>
+                        <a href="#" class="hover:text-amber-400 text-[25px] font-bold text-black">Booking</a>
+                        <a href="faq.html" class="text-[25px] font-bold text-black">FAQ</a>
+                    </div>
+        
+                    <!-- Search Bar -->
+                    <div class="searching w-[35%] h-[40px]">
+                        <div class="flex md:order-2 mr-0">
+                            <div class="relative flex items-center">
+                                <input
+                                    class="border-2 border-black h-13 w-90 px-5 pr-16 rounded-8xl text-black focus:outline-none rounded-full placeholder-[black]"
+                                    type="search"
+                                    name="search"
+                                    placeholder="Search.."
+                                />
+                                <button type="submit" class="absolute right-0 top-0 mt-3.5 mr-4">
+                                    <svg class="text-[#f26c05] font-bold h-4 w-4 mt-1 fill-current" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 56.966 56.966" width="512px" height="512px">
+                                        <path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23
+                                            s-23,10.318-23,23s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92
+                                            c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17
+                                            s-17-7.626-17-17S14.61,6,23.984,6z" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+        
+        <section>
+            <div class="container relative rounded-2xl overflow-hidden w-[95%] h-[600px] bg-amber-200 m-auto mt-[120px]">
+                <img class="image absolute w-[100%] h-[100%] bg-center right-0 object-cover" src="../asset/mountain.png" alt="">
+                <div class="box-content relative flex-col rounded-2xl absolute w-[40%] h-[100%] bg-[#29372c]/80">
+                    <h1 class="title absolute text-amber-50 text-[60px] font-bold leading-tight tracking-wide mt-[100px] ml-[60px]">Explore <br> the world <br>with us</h1>
+                    <p class="description absolute text-amber-50 text-[25px] leading-tight tracking-wide mt-[67%] ml-[60px]">Discover possibilities of travelling!</p>
+                    <button class="absolute p-[10px] bg-amber-500 text-white font-semibold rounded-lg hover:bg-amber-600 transition duration-300 mt-[450px] ml-[60px] w-[120px]">Explore</button>
+
+                </div>
+            </div>
+        </section>
+        <section>
+             <div class=" flex  m-auto items-center justify-center mt-[50px] w-[80%] h-[110px]  ">
+                <div class="flex relative bg-[#dfd9ce] h-[100%] w-[24%] rounded-l-[20px]">
+                    <div class="text-black p-2.5 mt-[10px] ml-[20px] ">
+                        <p class="font-bold">Location</p> <br>
+                        <p>Spain</p>
+                    </div>
+                    <span class="absolute right-2 mt-[18px] w-[2px] h-[75px] bg-amber-600"></span>
+                </div>
+                <div class="flex relative bg-[#dfd9ce] h-[100%] w-[28%]">
+                    <div class="text-black p-2.5 mt-[10px] ml-[20px] ">
+                        <p class="font-bold">Date</p> <br>
+                        <p>01/09/2023 - 10/09/2023</p>
+                    </div>
+                    <span class="absolute right-1 mt-[18px] w-[1px] h-[75px] bg-amber-600"></span>
+                </div>
+                <div class="flex relative bg-[#dfd9ce] h-[100%] w-[40%] rounded-r-[20px]">
+                    <div class="text-black p-2.5 mt-[10px] ml-[20px] ">
+                        <p class="font-bold">Guest</p> <br>
+                        <p>2 adults</p>
+                    </div>
+                    <button class=" absolute right-15 mt-[40px] w-[130px] h-[50px] text-amber-50 bg-black border-1 rounded-full">Search</button>
+                </div>
+             </div>
+        </section>
+        <section>
+            <section>
+                <div class="category mt-[20px] flex items-center justify-center w-full h-[110px] ">
+                    <h1 class="text-[30px] font-bold">Travel categories</h1>
+                </div>
+            </section>
+  <section>
+    <div class="container flex flex-col justify-center w-[73%] gap-8 h-[670px]  m-auto">
+        <div class="w-full flex justify-center h-[45%] gap-8">
+            <!-- box1 -->
+            <div class="box h-full relative w-[30%] bg-[#dfd9ce] rounded-[20px] overflow-hidden">
+                <div class="circle absolute h-[85px] w-[85px] top-[65px] left-[120px] bg-amber-50 rounded-full"></div>
+                <div class="icon absolute top-[100px] left-[130px]">
+                    <svg viewBox="0 0 24 24" class="w-16 h-16 overflow-visible opacity-100 z-10 fill-[#f26c05]">
+                        <path d="M0 0h24v24H0V0z" fill="none"></path>
+                        <path d="M13 3v1h-2V3h2m-1 7.11 5.38 1.77 2.39.78-1.12 3.97c-.54-.3-.94-.71-1.14-.94L16 13.96l-1.51 1.72c-.34.4-1.28 1.32-2.49 1.32s-2.15-.92-2.49-1.32L8 13.96l-1.51 1.72c-.2.23-.6.63-1.14.93l-1.13-3.96 2.4-.79L12 10.11M15 1H9v3H6c-1.1 0-2 .9-2 2v4.62l-1.29.42a1.007 1.007 0 0 0-.66 1.28L3.95 19H4c1.6 0 3.02-.88 4-2 .98 1.12 2.4 2 4 2s3.02-.88 4-2c.98 1.12 2.4 2 4 2h.05l1.89-6.68c.08-.26.06-.54-.06-.78s-.34-.42-.6-.5L20 10.62V6c0-1.1-.9-2-2-2h-3V1zM6 9.97V6h12v3.97L12 8 6 9.97zm10 9.71c-1.22.85-2.61 1.28-4 1.28s-2.78-.43-4-1.28C6.78 20.53 5.39 21 4 21H2v2h2c1.38 0 2.74-.35 4-.99 1.26.64 2.63.97 4 .97s2.74-.32 4-.97c1.26.65 2.62.99 4 .99h2v-2h-2c-1.39 0-2.78-.47-4-1.32z"></path>
+                    </svg>
+                </div>
+                <div class="text absolute w-[170px] h-[70px] bottom-[50px] right-22">
+                    <p class="text-center tracking-[5px]">BEACH <br> GETAWAY</p>
+                </div>
+            </div>
+            <!-- box2 -->
+            <div class="box h-full relative w-[30%] bg-[#dfd9ce] rounded-[20px] overflow-hidden">
+                <div class="circle absolute h-[85px] w-[85px] top-[65px] left-[120px] bg-amber-50 rounded-full"></div>
+                <div class="icon absolute top-[100px] left-[130px]">
+                    <svg viewBox="0 0 576 512" style="width: 65px; height: 65px; overflow: visible; opacity: 1; z-index: 1; fill: rgb(242, 108, 5);"><path d="M328.1 112L563.7 405.4C571.7 415.4 576 427.7 576 440.4V464C576 490.5 554.5 512 528 512H48C21.49 512 0 490.5 0 464V440.4C0 427.7 4.328 415.4 12.27 405.4L247 112L199 51.99C187.1 38.19 190.2 18.05 204 7.013C217.8-4.027 237.9-1.789 248.1 12.01L288 60.78L327 12.01C338.1-1.789 358.2-4.027 371.1 7.013C385.8 18.05 388 38.19 376.1 51.99L328.1 112zM407.5 448L288 291.7L168.5 448H407.5z"></path></svg>
+                </div>
+                <div class="text absolute w-[170px] h-[70px] bottom-[50px] right-22">
+                    <p class="text-center tracking-[5px]">ADVEBTURE <br> TIME</p>
+                </div>
+            </div>
+            <!-- box3 -->
+            <div class="box h-full relative w-[30%] bg-[#dfd9ce] rounded-[20px] overflow-hidden">
+                <div class="circle absolute h-[85px] w-[85px] top-[65px] left-[120px] bg-amber-50 rounded-full"></div>
+                <div class="icon absolute top-[100px] left-[130px]">
+                    <svg viewBox="0 0 24 24" style="width: 65px; height: 65px; overflow: visible; opacity: 1; z-index: 1; fill: rgb(242, 108, 5);"><path fill="none" d="M0 0h24v24H0z"></path><path d="M6 3c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm14.06-2h-2.12L15.5 3.44l1.06 1.06 3.5-3.5zM22 23v-2h-1c-1.04 0-2.08-.35-3-1-1.83 1.3-4.17 1.3-6 0-1.83 1.3-4.17 1.3-6 0-.91.65-1.96 1-3 1H2v2h1c1.03 0 2.05-.25 3-.75 1.89 1 4.11 1 6 0 1.89 1 4.11 1 6 0 .95.5 1.97.75 3 .75h1zm-1-9.72c0 1.44-2.19 3.62-5.04 5.58-.31.09-.63.14-.96.14-1.2 0-2.27-.66-3-1.5-.73.84-1.8 1.5-3 1.5-.94 0-1.81-.41-2.49-.99.46-.39.96-.78 1.49-1.17l-1.55-2.97A4.06 4.06 0 0 1 6 12V8c0-1.1.9-2 2-2h3c1.38 0 2.63-.56 3.54-1.46l1.41 1.41A7.018 7.018 0 0 1 11 8H9.6v3.5h2.8l1.69 1.88c1.95-.84 3.77-1.38 5.06-1.38.84 0 1.85.25 1.85 1.28zm-8.8.99-.7-.77-2.5.1.83 2.01c.59-.38 1.81-1.06 2.37-1.34z"></path></svg>
+                </div>
+                <div class="text absolute w-[170px] h-[70px] bottom-[50px] right-22">
+                    <p class="text-center tracking-[5px]">EXOTIC TRIPS</p>
+                </div>
+            </div>
+        </div>
+        <div class="w-full flex justify-center h-[45%] gap-8 ">
+            <!-- box 4 -->
+            <div class="box h-full relative w-[30%] bg-[#dfd9ce] rounded-[20px] overflow-hidden">
+                <div class="circle absolute h-[85px] w-[85px] top-[65px] left-[120px] bg-amber-50 rounded-full"></div>
+                <div class="icon absolute top-[100px] left-[130px]">
+                    <svg viewBox="0 0 24 24" style="width: 65px; height: 65px; overflow: visible; opacity: 1; z-index: 1; fill: rgb(242, 108, 5);"><path d="M0 0h24v24H0V0z" fill="none"></path><path d="M13 3v1h-2V3h2m-1 7.11 5.38 1.77 2.39.78-1.12 3.97c-.54-.3-.94-.71-1.14-.94L16 13.96l-1.51 1.72c-.34.4-1.28 1.32-2.49 1.32s-2.15-.92-2.49-1.32L8 13.96l-1.51 1.72c-.2.23-.6.63-1.14.93l-1.13-3.96 2.4-.79L12 10.11M15 1H9v3H6c-1.1 0-2 .9-2 2v4.62l-1.29.42a1.007 1.007 0 0 0-.66 1.28L3.95 19H4c1.6 0 3.02-.88 4-2 .98 1.12 2.4 2 4 2s3.02-.88 4-2c.98 1.12 2.4 2 4 2h.05l1.89-6.68c.08-.26.06-.54-.06-.78s-.34-.42-.6-.5L20 10.62V6c0-1.1-.9-2-2-2h-3V1zM6 9.97V6h12v3.97L12 8 6 9.97zm10 9.71c-1.22.85-2.61 1.28-4 1.28s-2.78-.43-4-1.28C6.78 20.53 5.39 21 4 21H2v2h2c1.38 0 2.74-.35 4-.99 1.26.64 2.63.97 4 .97s2.74-.32 4-.97c1.26.65 2.62.99 4 .99h2v-2h-2c-1.39 0-2.78-.47-4-1.32z"></path></svg>
+                </div>
+                <div class="text absolute w-[170px] h-[70px] bottom-[50px] right-22">
+                    <p class="text-center tracking-[5px]">CRUISES</p>
+                </div>
+            </div>
+            <!-- box5 -->
+
+           <div class="box h-full relative w-[30%] bg-[#f4954b] rounded-[20px] overflow-hidden">
+                <div class="circle absolute h-[85px] w-[85px] top-[65px] left-[120px] bg-amber-50 rounded-full"></div>
+                <div class="icon absolute top-[100px] left-[130px]">
+                    
+                    <svg viewBox="0 0 24 24" style="width: 65px; height: 65px; overflow: visible; opacity: 1; z-index: 1; fill:black;"><path d="M0 0h24v24H0V0z" fill="none"></path>  <path stroke-linecap="round" stroke-linejoin="round" d="M15.59 14.37a6 6 0 0 1-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 0 0 6.16-12.12A14.98 14.98 0 0 0 9.631 8.41m5.96 5.96a14.926 14.926 0 0 1-5.841 2.58m-.119-8.54a6 6 0 0 0-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 0 0-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 0 1-2.448-2.448 14.9 14.9 0 0 1 .06-.312m-2.24 2.39a4.493 4.493 0 0 0-1.757 4.306 4.493 4.493 0 0 0 4.306-1.758M16.5 9a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z" /></svg>
+                </div>
+                <div class="text absolute w-[170px] h-[70px] bottom-[50px] right-22">
+                    <p class="text-center tracking-[5px]">LAST  MINUTE</p>
+                </div>
+            </div>
+              <!-- box 6 -->
+              <div class="box h-full relative w-[30%] bg-[#dfd9ce] rounded-[20px] overflow-hidden">
+                <div class="circle absolute h-[85px] w-[85px] top-[65px] left-[120px] bg-amber-50 rounded-full"></div>
+                <div class="icon absolute top-[100px] left-[130px]">
+                    <svg viewBox="0 0 24 24" style="width: 65px; height: 65px; overflow: visible; opacity: 1; z-index: 1; fill: rgb(242, 108, 5);"><path d="M0 0h24v24H0V0z" fill="none"></path><path d="m14 6-4.22 5.63 1.25 1.67L14 9.33 19 16h-8.46l-4.01-5.37L1 18h22L14 6zM5 16l1.52-2.03L8.04 16H5z"></path></svg>
+                </div>
+                <div class="text absolute w-[170px] h-[70px] bottom-[50px] right-22">
+                    <p class="text-center tracking-[5px]">MOUNTAINS</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+  </section>
+  <section>
+    <div class="content w-[95%] h-[650px] flex justify-center gap-7 bg-[#e2d7ba] m-auto mt-[75px] rounded-[30px]">
+        <div class="text relative w-[48%] mt-17 h-[80%] ">
+            <h1 class="absolute text-[55px] mt-[20px] ml-[50px] font-bold top-2 left-0.5 text-black">Visit Azores</h1>
+            <p class="text-[30px] mt-[150px] ml-[50px] text-black">10 night   <br> fro <span class="font-bold">$800</span> /person</p>
+            <button class="w-[230px] mt-[100px] ml-[50px] h-[60px] text-white text-[25px] font-bold border-e-red-300 bg-[#f26c05] rounded-full">  Explore now</button>
+        </div>
+        <div class="image flex items-center justify-between gap-3 p-[20px]  w-[44%] text-white text-[30px]  mt-17 h-[80%] ">
+            <div class="box1 flex flex-col gap-5 justify-center w-[49%] h-full ">
+                <div class="w-full h-[48%] ">
+                    <img  class=" w-full h-full object-center object-cover rounded-[30px]" src="../asset/mountain.jpg" alt="">
+                </div>
+                <div class="w-full h-[48%] ">
+                    <img  class=" w-full h-full object-center object-cover rounded-[30px]" src="../asset/sea.jpg" alt="">
+                </div>
+            </div>
+            <div class="box1 relative w-[47%] h-full ">
+                <img  class=" w-full h-full object-center object-cover rounded-[30px]" src="../asset/mountainsea.png" alt="">
+                <div class="circle absolute w-[120px] h-[120px] bg-amber-500 text-center items-center top-[-35px] right-[-35px] rounded-full">
+                    <p class="text-[20px] text-center mt-[17px] font-bold">Hot <br> Offer</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+  </section>
+  <section>
+    <div class="title text-[30px] font-bold flex w-full mt-[20px] h-[110px] text-center  justify-center items-center">
+        <h1>Best offers this week</h1>
+    </div>
+</section>
+<section>
+    <div class="container w-[90%] h-[450px] m-auto gap-6 flex justify-center">
+        <div class="card relative w-[32%] h-[95%] ">
+            <img class="w-full h-full object-center object-cover rounded-[30px]" src="../asset/mountains.png" alt="">
+            <div class="subbox absolute   w-[370px] h-[150px] bg-[#f4954b] bottom-[-70px] left-8 rounded-[25px]">
+                <p class="text-[21px] mt-[10px] tracking-[5px] ml-[35px]">Mountains</p>
+                <p class="text-[27px] font-bold  ml-[35px]">Dolomites </p>
+                <p class="text-[21px]  ml-[35px]">From $400</p>
+            </div>
+        </div>
+        <div class="card relative w-[32%] h-[95%]  ">
+            <img class="w-full h-full object-center object-cover rounded-[30px]" src="../asset/sea2.png" alt="">
+            <div class="subbox absolute   w-[370px] h-[150px] bg-[#517357] bottom-[-70px] left-8 rounded-[25px]">
+                <p class="text-[21px]  text-white mt-[10px] tracking-[5px] ml-[35px]">BEACH</p>
+                <p class="text-[27px] text-white font-bold  ml-[35px]">Canary Island </p>
+                <p class="text-[21px]  text-white ml-[35px]">From $750</p>
+            </div>
+        </div>
+        <div class="card relative w-[32%] h-[95%]  ">
+            <img class="w-full h-full object-center object-cover rounded-[30px]" src="../asset/waterfall.png" alt="">
+            <div class="subbox absolute   w-[370px] h-[150px] bg-[#dfd9ce] bottom-[-70px] left-8 rounded-[25px]">
+                <p class="text-[21px] text-black mt-[10px] tracking-[5px] ml-[35px]">RELAX</p>
+                <p class="text-[27px] font-bold text-white ml-[35px]">AZORES </p>
+                <p class="text-[21px]  ml-[35px]">From $680</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- footer -->
+<section>
+    <div class="footer relative flex justify-between w-full h-[350px] bg-[#142316] mt-[130px]">
+        <div class="text absolute w-[400px] mt-[40px] ml-[39%] h-[40px] text-white text-center">
+            <h1 class="text-2xl text-white font-bold">Subscribe to our newsletter</h1>
+            <p class="text-lg mt-[10px] text-white">Know about our new offers first</p>
+        </div>
+        <div class=" absolute mt-[150px] flex items-center overflow-hidden bg-gray-50 rounded-full max-w-xl mx-auto left-1/2 transform -translate-x-1/2">
+            <input type="email" placeholder="@gmail.com" class="w-[600px] h-[60px] rounded-full bg-transparent py-3.5 px-4 text-gray-800 text-base focus:outline-none" />
+            <button class="bg-[#f26c05] hover:bg-[#a91079e2] rounded-full h-[60px] text-white text-base tracking-wide py-3.5 px-6 hover:shadow-md transition-transform hover:scale-105 focus:outline-none">
+                Subscribe
+            </button>
+        </div>
+        <div class=" absolute bottom-0   flex justify-between items-end mb-4 gap-5 w-full">
+            <div class="box w-[30%] h-[50px] ">
+                <div class="logo relative flex  w-[30%] h-full ">
+                    <div class="logo absolute ml-[45px] mt-[10px] ">
+                        <svg viewBox="0 0 24 24" style="width:  25px; height: 25px; overflow: visible; opacity: 1; z-index: 1; fill: rgb(242, 108, 5);"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19.3 16.9c.4-.7.7-1.5.7-2.4 0-2.5-2-4.5-4.5-4.5S11 12 11 14.5s2 4.5 4.5 4.5c.9 0 1.7-.3 2.4-.7l3.2 3.2 1.4-1.4-3.2-3.2zm-3.8.1c-1.4 0-2.5-1.1-2.5-2.5s1.1-2.5 2.5-2.5 2.5 1.1 2.5 2.5-1.1 2.5-2.5 2.5zM12 20v2C6.48 22 2 17.52 2 12S6.48 2 12 2c4.84 0 8.87 3.44 9.8 8h-2.07A8 8 0 0 0 15 4.59V5c0 1.1-.9 2-2 2h-2v2c0 .55-.45 1-1 1H8v2h2v3H9l-4.79-4.79C4.08 10.79 4 11.38 4 12c0 4.41 3.59 8 8 8z"></path></svg>
+                    </div>
+                   <div class=" absolute ml-[75px]  text-[25px] font-bold  text-white"><h1>Travel</h1></div>
+                </div>
+            </div>
+            <div class="box text-center w-[30%] h-[50px] ">
+                <p class="mt-[8px] text-white">&copy Copyright 2010-2023, All right reversed</p>
+            </div>
+            <div class="box w-[30%] h-[50px] items-center justify-center text-center flex gap-9  text-white   ">
+                <p>logal </p>
+                <p>privacy policy</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+</body>
+</html>
